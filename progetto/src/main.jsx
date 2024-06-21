@@ -8,8 +8,9 @@ import { Fade } from 'react-awesome-reveal'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+    
     <AuthProvider>
             <RouterProvider router={Rotte} />
     </AuthProvider>
-
+    
 )
